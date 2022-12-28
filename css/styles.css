@@ -9,10 +9,10 @@ header {
   background-color: #2f303a;
 }
 .secondary-section {
-background-color: #E5E5E5;
+  background-color: #e5e5e5;
 }
 .dedicamos {
-  background-color: #E5E5E5;
+  background-color: #e5e5e5;
 }
 .team {
   background-color: #f5f4fa;
@@ -22,14 +22,15 @@ footer {
 }
 
 h1 {
-  font-family:  Roboto;
-  Weight:  900;
-  Size: 44px;
-  Line height:  60px;  Letter;  6%;
+  font-family: Roboto;
+  weight: 900;
+  size: 44px;
   color: white;
   text-align: center;
 }
-.button:hover {
-  background-color: #2196F3;
-  color: #ffffff;
+button:hover {
+  background-color: #2196f3;
+  color: white;
+  cursor: pointer;
+  text-align: center;
 }

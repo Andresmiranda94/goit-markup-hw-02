@@ -30,6 +30,19 @@ h1 {
   color: white;
   text-align: center;
 }
+h2 {
+  color: #212121;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 700;
+  text-align: center;
+}
+h3 {
+  color: #212121;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+}
 button {
   
   color: white;

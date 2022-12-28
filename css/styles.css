@@ -7,9 +7,16 @@ header {
 .Contenedor-principal {
   background-color: #2f303a;
 }
-.seccion-secundaria {
-  color: red;
+.dedicamos {
+  background-color: #e5e5e5;
+}
+.nuestro-equipo {
+  background-color: #f5f4fa;
 }
 footer {
   background-color: #2f303a;
+}
+h1 {
+  color: #ffffff;
+  align: Center;
 }

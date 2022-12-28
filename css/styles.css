@@ -1,6 +1,6 @@
 body {
   background-color: #e5e5e5;
-  font-family: roboto;
+  font-family: roboto; sans-serif;
   font-size: normal;
 }
 header {
@@ -22,23 +22,50 @@ header {
 footer {
   background-color: #2f303a;
 }
-
 h1 {
   font-family: Roboto;
   weight: 900;
-  size: 44px;
+  font-size: 44px;
+  /*line-height: 66px;*/  
   color: white;
   text-align: center;
 }
+button {
+  
+  color: white;
+  background-color: #2196f3;
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 16px
+}
 button:hover {
   background-color: #2196f3;
-  color: white;
   cursor: pointer;
 }
-.link {
+.link-nav:active {
+  color: #2196f3;
+}
+.link-nav {
   color: black;
 }
-.link:hover {
+.link-nav:hover {
+  font-family: Raleway;
+  color: #2196f3;
+  cursor: pointer;
+}
+.link-footer {
+  color: white;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 400;
+}
+.name {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 700;
+  color: #2196f3;
+}
+.link-footer:hover {
   font-family: Raleway;
   color: #2196f3;
   cursor: pointer;

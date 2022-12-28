@@ -56,6 +56,13 @@ button:hover {
 }
 .link-nav {
   color: black;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+}
+.link-tel {
+  color: #757575;
+  ;
 }
 .link-nav:hover {
   font-family: Raleway;

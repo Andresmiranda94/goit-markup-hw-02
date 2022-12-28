@@ -30,7 +30,15 @@ h1 {
 }
 button:hover {
   background-color: #2196f3;
-  color: white;
+  color: #black;
   cursor: pointer;
   text-align: center;
+}
+.link {
+  color: black;
+}
+.link:hover {
+  font-family: Raleway;
+  color: #2196f3;
+  cursor: pointer;
 }

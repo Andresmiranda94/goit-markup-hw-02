@@ -1,5 +1,6 @@
 body {
   background-color: #e5e5e5;
+  font-family: roboto;
 }
 header {
   background-color: #ffffff;
@@ -7,16 +8,28 @@ header {
 .Contenedor-principal {
   background-color: #2f303a;
 }
-.dedicamos {
-  background-color: #e5e5e5;
+.secondary-section {
+background-color: #E5E5E5;
 }
-.nuestro-equipo {
+.dedicamos {
+  background-color: #E5E5E5;
+}
+.team {
   background-color: #f5f4fa;
 }
 footer {
   background-color: #2f303a;
 }
+
 h1 {
+  font-family:  Roboto;
+  Weight:  900;
+  Size: 44px;
+  Line height:  60px;  Letter;  6%;
+  color: white;
+  text-align: center;
+}
+.button:hover {
+  background-color: #2196F3;
   color: #ffffff;
-  align: Center;
 }

@@ -7,6 +7,7 @@ header {
 }
 .Contenedor-principal {
   background-color: #2f303a;
+  text-align: center;
 }
 .secondary-section {
   background-color: #e5e5e5;
@@ -30,9 +31,8 @@ h1 {
 }
 button:hover {
   background-color: #2196f3;
-  color: #black;
+  color: white;
   cursor: pointer;
-  text-align: center;
 }
 .link {
   color: black;

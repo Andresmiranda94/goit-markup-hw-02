@@ -1,9 +1,20 @@
+:root {
+  --color-link: #2196f3;
+  --font--primary: "roboto";
+  --color-page: #e5e5e5;
+  --color-header: #ffffff;
+}
+
 body {
-  background-color: #e5e5e5;
+  color: var(--color-page);
   font-family: "roboto";
   font-size: normal;
+  min-height: 90%;
 }
-header {
+.navbar {
+  display: flex;
+}
+.top-box {
   background-color: #ffffff;
 }
 .contenedor-principal {
@@ -22,17 +33,17 @@ header {
 .team {
   background-color: #f5f4fa;
 }
-footer {
+.bottom-box {
   background-color: #2f303a;
 }
-h1 {
+.primary-title {
   font-family: "Roboto";
   font-weight: 900;
   font-size: 44px;
   color: white;
   text-align: center;
 }
-h2 {
+.secondary-title {
   color: #212121;
   font-family: Roboto;
   font-style: normal;
@@ -46,14 +57,14 @@ h3 {
   font-weight: 500;
   font-size: 16px;
 }
-button {
-  color: white;
-  background-color: #2196f3;
+.link-button {
+  color: #212121;
+  background-color: #f5f4fa;
   font-family: Roboto;
   font-weight: 700;
-  font-size: 16px;
+  text-decoration: none;
 }
-button:hover {
+.link-button:hover {
   background-color: #2196f3;
   cursor: pointer;
 }
@@ -67,10 +78,12 @@ button:hover {
   color: #757575;
 }
 .link:hover {
-  color: #2196f3;
+  color: var(--color-link);
   cursor: pointer;
 }
-
+.link:active {
+  color: var(--color-link);
+}
 .name {
   font-family: Raleway;
   font-style: normal;
@@ -79,11 +92,8 @@ button:hover {
 }
 .contact-links:hover {
   font-family: Raleway;
-  color: #2196f3;
+  color: var(--color-link);
   cursor: pointer;
-}
-ul {
-  list-style-type: none;
 }
 address {
   font-style: normal;

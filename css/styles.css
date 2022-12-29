@@ -1,16 +1,19 @@
 body {
   background-color: #e5e5e5;
-  font-family: roboto; sans-serif;
+  font-family: "roboto";
   font-size: normal;
 }
 header {
   background-color: #ffffff;
 }
-.Contenedor-principal {
+.contenedor-principal {
   background-color: #2f303a;
   text-align: center;
 }
 .secondary-section {
+  background-color: #e5e5e5;
+}
+.values {
   background-color: #e5e5e5;
 }
 .dedicamos {
@@ -23,8 +26,8 @@ footer {
   background-color: #2f303a;
 }
 h1 {
-  font-family: Roboto;
-  weight: 900;
+  font-family: "Roboto";
+  font-weight: 900;
   font-size: 44px;
   color: white;
   text-align: center;
@@ -47,13 +50,13 @@ button {
   background-color: #2196f3;
   font-family: Roboto;
   font-weight: 700;
-  font-size: 16px
+  font-size: 16px;
 }
 button:hover {
   background-color: #2196f3;
   cursor: pointer;
 }
-.link{
+.link {
   color: black;
   font-family: Roboto;
   font-style: normal;
@@ -61,7 +64,6 @@ button:hover {
 }
 .contact-links {
   color: #757575;
-  ;
 }
 .link:hover {
   font-family: Raleway;
@@ -81,4 +83,7 @@ button:hover {
 }
 ul {
   list-style-type: none;
+}
+address {
+  font-style: normal;
 }

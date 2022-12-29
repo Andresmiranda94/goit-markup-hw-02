@@ -26,7 +26,6 @@ h1 {
   font-family: Roboto;
   weight: 900;
   font-size: 44px;
-  /*line-height: 66px; no va con px*/  
   color: white;
   text-align: center;
 }
@@ -54,17 +53,17 @@ button:hover {
   background-color: #2196f3;
   cursor: pointer;
 }
-.link-nav {
+.link{
   color: black;
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
 }
-.link-tel {
+.contact-links {
   color: #757575;
   ;
 }
-.link-nav:hover {
+.link:hover {
   font-family: Raleway;
   color: #2196f3;
   cursor: pointer;
@@ -85,4 +84,7 @@ button:hover {
   font-family: Raleway;
   color: #2196f3;
   cursor: pointer;
+}
+ul {
+  list-style-type: none;
 }

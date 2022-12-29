@@ -68,19 +68,13 @@ button:hover {
   color: #2196f3;
   cursor: pointer;
 }
-.link-footer {
-  color: white;
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: 400;
-}
 .name {
   font-family: Raleway;
   font-style: normal;
   font-weight: 700;
   color: #2196f3;
 }
-.link-footer:hover {
+.contact-links:hover {
   font-family: Raleway;
   color: #2196f3;
   cursor: pointer;

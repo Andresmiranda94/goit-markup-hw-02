@@ -4,9 +4,18 @@
   --color-page: #e5e5e5;
   --color-header: #ffffff;
   --font-primary: "roboto";
+  --font-style: "normal";
 }
 
 body {
+  position: relative;
+  width: 1600px;
+  height: 2410px;
   background-color: var(--color-page);
   font-family: var(--font--primary);
+}
+.top-box {
+  background-color: var(--color-header);
+  font-family: var(--font--primary);
+  font-style: var(--font-style);
 }

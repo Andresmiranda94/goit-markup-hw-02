@@ -6,8 +6,9 @@
   --color-page: #e5e5e5;
   --color-header: #ffffff;
   --font-primary: "roboto", sans-serif;
-  --font-secondary: 'Raleway', sans-serif;
+  --font-secondary: "Raleway", sans-serif;
   --font-style: "normal";
+  --color-contact: #757575;
 }
 
 body {
@@ -38,17 +39,25 @@ body {
 .name {
   color: var(--color-link);
   font-family: var(--font-primary);
-  Weight: 700;
+  weight: 700;
   font-size: 26px;
   line-height: 2em;
 }
 .link {
   color: black;
   font-family: var(--font--primary);
-  Weight:500;
+  weight: 500;
   font-size: 14px;
-  Line height: 1em;
+  line-height: 1em;
 }
-.link:hover{
+.link:hover {
   color: var(--color-link);
+}
+.contact-links {
+  color: var(--color-contact);
+  font-family: var(--font-primary);
+  weight: 500;
+  font-size: 14px;
+  line-height: 1em;
+  letter: 2%;
 }

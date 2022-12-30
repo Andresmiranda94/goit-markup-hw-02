@@ -5,19 +5,12 @@
   --font--primary: "roboto";
   --color-page: #e5e5e5;
   --color-header: #ffffff;
-  --font-primary: "roboto", sans-serif;
-  --font-secondary: "Raleway", sans-serif;
   --font-style: "normal";
   --color-contact: #757575;
 }
 
 body {
-  background-color: var(--color-page);
-  font-family: var(--font--primary);
-  width: 1600px;
-  height: 2410px;
-  top: -1175px;
-  left: -1704px;
+  font-family: roboto, sans-serif;
 }
 .top-box {
   background-color: var(--color-header);
@@ -26,6 +19,16 @@ body {
 }
 .contenedor-principal {
   background-color: var(--color-container);
+  text-align: center;
+}
+.primary-title {
+  color: white;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  text-align: center;
 }
 .dedicamos {
   background-color: var(--color-page);
@@ -54,7 +57,7 @@ body {
   color: var(--color-link);
 }
 .contact-links {
-  color: var(--color-contact);
+  color: black;
   font-family: var(--font-primary);
   weight: 500;
   font-size: 14px;

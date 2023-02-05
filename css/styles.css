@@ -28,10 +28,19 @@ body {
   color: var(--color-link);
   cursor: pointer;
 }
-.site-nav:active {
+.site-nav .nav.active {
+  text-decoration: none;
+  font-style: var(--font-style);
+  font-weight: 500;
+  line-height: 0.9;
+  letter-spacing: 0.02em;
+  color: var(--color-link);
+}
+.current:active {
   color: var(--color-link);
 }
 .list {
+  color: #212121;
   list-style: none;
   text-decoration: none;
 }

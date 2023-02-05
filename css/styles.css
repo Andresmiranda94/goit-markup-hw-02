@@ -166,10 +166,6 @@ body {
   top: 430px;
 }
 
-.secondary {
-  background-color: #ffffff;
-}
-
 .tittle {
   color: var(--color-letter-black);
   font-style: var(--font-style);
@@ -269,36 +265,41 @@ body {
 }
 .color {
   position: absolute;
-  width: 373.16px;
+  width: 373.16px;  
   height: 323.7px;
   left: 1015px;
   top: 1092px;
 }
 .secundary-team {
-  position: absolute;
-  width: 1600px;
+  background-color: var(--color-team);
+   width: 1600px;
   height: 648px;
   left: 0px;
-  top: 1510px;
+  top: 1510px
 }
+ 
 .tittle-team {
-  position: absolute;
-  width: 263px;
-  height: 42px;
-  left: 669px;
-  top: 1604px;
+   /*position: absolute;*/
+
   font-style: var(--font-style);
   font-weight: 700;
   font-size: 36px;
   line-height: 42px;
+  width: 263px;
+  height: 42px;
+  left: 669px;
+  top: 1604px;
   text-align: center;
+    
 }
-.li {
+
+/*.li {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
-}
-.Andres {
+}*/
+
+/*.Andres {
   position: absolute;
   width: 270px;
   height: 260px;
@@ -311,7 +312,6 @@ body {
   height: 19px;
   left: 295px;
   top: 1986px;
-
   font-style: var(--font-style);
   font-weight: 500;
   font-size: 16px;

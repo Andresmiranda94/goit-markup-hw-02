@@ -16,7 +16,14 @@ body {
   font-size: 14px;
 }
 
-#name {
+.name {
+  font-family: "Raleway";
+  color: var(--color-link);
+  font-style: normal;
+  text-decoration: none;
   font-family: "Raleway";
   font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
 }

@@ -133,8 +133,6 @@ body {
 }
 .pgh {
   color: var(--color-contact);
-  font-style: var(--font-style);
-  font-weight: 400;
   line-height: 1.7;
 }
 
@@ -156,8 +154,6 @@ body {
   line-height: 1.2;
 }
 .pgh-designer {
-  font-style: var(--font-style);
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.2;
 }

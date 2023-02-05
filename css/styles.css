@@ -12,11 +12,11 @@
 body {
   font-family: "roboto", sans-serif;
   letter-spacing: 0.03em;
-  background-color: #E5E5E5;
+  background-color: #e5e5e5;
   font-size: 14px;
 }
 
 #name {
   font-family: "Raleway";
-  font-style: normal; }
-  
+  font-style: normal;
+}

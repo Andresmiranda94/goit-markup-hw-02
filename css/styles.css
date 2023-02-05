@@ -28,7 +28,7 @@ body {
   color: var(--color-link);
   cursor: pointer;
 }
-.site-nav .nav.active {
+.site-nav .current.active {
   text-decoration: none;
   font-style: var(--font-style);
   font-weight: 500;
@@ -177,10 +177,10 @@ body {
   font-style: var(--font-style);
   font-weight: 400;
   line-height: 0.5;
+  text-decoration-style: none;
 }
 .phone-footer {
   color: rgba(255, 255, 255, 0.6);
-  font-style: var(--font-style);
   font-weight: 400;
   line-height: 0.5;
 }

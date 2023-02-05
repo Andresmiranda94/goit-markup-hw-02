@@ -13,7 +13,7 @@
 body {
   font-family: "roboto", sans-serif;
   letter-spacing: 0.03em;
-  background-color: #e5e5e5;
+  background-color: #ffff;
   font-size: 14px;
 }
 .top-box {
@@ -117,15 +117,14 @@ body {
   letter-spacing: 0.02em;
 }
 
-/*.conteiner {
+.conteiner {
   background-color: var(--color-container);
   position: absolute;
   width: 1600px;
   height: 600px;
   left: -4px;
   top: 80px;
-}*/
-
+}
 .primary-title {
   color: #ffffff;
   position: absolute;
@@ -167,10 +166,9 @@ body {
   top: 430px;
 }
 
-/*.secondary {
+.secondary {
   background-color: #ffffff;
-  margin: 0;
-}*/
+}
 
 .tittle {
   color: var(--color-letter-black);
@@ -184,4 +182,159 @@ body {
   font-style: var(--font-style);
   font-weight: 400;
   line-height: 24px;
+}
+.customer {
+  position: absolute;
+  width: 270px;
+  height: 16px;
+  left: 215px;
+  top: 775px;
+}
+.aten {
+  position: absolute;
+  width: 270px;
+  height: 75px;
+  left: 215px;
+  top: 801px;
+}
+
+.puntuality {
+  position: absolute;
+  width: 270px;
+  height: 16px;
+  left: 515px;
+  top: 775px;
+}
+.pun {
+  position: absolute;
+  width: 270px;
+  height: 96px;
+  left: 515px;
+  top: 801px;
+}
+.planning {
+  position: absolute;
+  width: 270px;
+  height: 16px;
+  left: 815px;
+  top: 775px;
+}
+.plan {
+  position: absolute;
+  width: 270px;
+  height: 75px;
+  left: 815px;
+  top: 801px;
+}
+.tech {
+  position: absolute;
+  width: 270px;
+  height: 16px;
+  left: 1115px;
+  top: 775px;
+}
+.tec {
+  position: absolute;
+  width: 270px;
+  height: 75px;
+  left: 1115px;
+  top: 801px;
+}
+.title-dedicamos {
+  position: absolute;
+  width: 371.15px;
+  height: 46.24px;
+  left: 619.43px;
+  top: 991px;
+  font-style: var(--font-style);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+}
+
+.img-trading {
+  position: absolute;
+  width: 373.16px;
+  height: 323.7px;
+  left: 215px;
+  top: 1092.3px;
+}
+.design {
+  position: absolute;
+  width: 373.16px;
+  height: 323.7px;
+  left: 618.42px;
+  top: 1092.3px;
+}
+.color {
+  position: absolute;
+  width: 373.16px;
+  height: 323.7px;
+  left: 1015px;
+  top: 1092px;
+}
+.secundary-team {
+  position: absolute;
+  width: 1600px;
+  height: 648px;
+  left: 0px;
+  top: 1510px;
+}
+.tittle-team {
+  position: absolute;
+  width: 263px;
+  height: 42px;
+  left: 669px;
+  top: 1604px;
+  font-style: var(--font-style);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+}
+.li {
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+.Andres {
+  position: absolute;
+  width: 270px;
+  height: 260px;
+  left: 208px;
+  top: 1696px;
+}
+.tittle-andres {
+  position: absolute;
+  width: 97px;
+  height: 19px;
+  left: 295px;
+  top: 1986px;
+
+  font-style: var(--font-style);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+}
+.pgh-designer {
+  position: absolute;
+  width: 181px;
+  height: 19px;
+  left: 253px;
+  top: 2015px;
+  font-style: var(--font-style);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+}
+.bottom-box {
+  background-color: var(--color-container);
+  position: absolute;
+  width: 1600px;
+  height: 252px;
+  left: 0px;
+  top: 2158px;
 }

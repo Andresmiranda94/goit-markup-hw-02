@@ -11,56 +11,7 @@
 
 body {
   font-family: roboto, sans-serif;
-}
-.top-box {
-  background-color: var(--color-header);
-  font-family: var(--font--primary);
-  font-style: var(--font-style);
-}
-.contenedor-principal {
-  background-color: var(--color-container);
-  text-align: center;
-}
-.primary-title {
-  color: white;
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 60px;
-  text-align: center;
-}
-.dedicamos {
-  background-color: var(--color-page);
-}
-.team {
-  background-color: var(--color-team);
-}
-.bottom-box {
-  background-color: var(--color-container);
-}
-.name {
-  color: var(--color-link);
-  font-family: var(--font-primary);
-  weight: 700;
-  font-size: 26px;
-  line-height: 2em;
-}
-.link {
-  color: black;
-  font-family: var(--font--primary);
-  weight: 500;
+  letter-spacing: 0.03em;
+  background-color: #E5E5E5;
   font-size: 14px;
-  line-height: 1em;
-}
-.link:hover {
-  color: var(--color-link);
-}
-.contact-links {
-  color: black;
-  font-family: var(--font-primary);
-  weight: 500;
-  font-size: 14px;
-  line-height: 1em;
-  letter: 2%;
 }

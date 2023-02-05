@@ -199,6 +199,10 @@ body {
   font-size: 16px;
   line-height: 1.6;
 }
+.port:focus {
+  background-color: var(--color-link);
+  color: #ffffff;
+}
 .name-product {
   font-style: var(--font-style);
   font-weight: 700;

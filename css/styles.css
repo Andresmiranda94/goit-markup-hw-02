@@ -151,46 +151,17 @@ body {
   line-height: 1.16;
 }
 
-.tittle-andres {
+.team-name {
   font-style: var(--font-style);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.2;
 }
-.pgh-designer {
+.pgh-name {
   font-size: 16px;
   line-height: 1.2;
 }
-.tittle-carla {
-  font-style: var(--font-style);
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.2;
-}
-.tittle-mario {
-  font-style: var(--font-style);
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.2;
-}
-.pgh-mark {
-  font-size: 16px;
-  line-height: 1.2;
-}
-.tittle-pablo {
-  font-style: var(--font-style);
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.2;
-}
-.pgh-IU {
-  font-size: 16px;
-  line-height: 1.2;
-}
-.pgh-developer {
-  font-size: 16px;
-  line-height: 1.2;
-}
+
 .bottom-box {
   background-color: var(--color-container);
 }

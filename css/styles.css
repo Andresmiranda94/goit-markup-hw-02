@@ -93,6 +93,7 @@ body {
 
 .conteiner {
   background-color: var(--color-container);
+  text-align: center;
 }
 .primary-title {
   color: #ffffff;
@@ -112,6 +113,7 @@ body {
   cursor: pointer;
 }
 .principal {
+  font-family: "Roboto";
   background-color: var(--color-link);
   color: #ffffff;
   font-style: var(--font-style);
@@ -130,6 +132,7 @@ body {
   font-style: var(--font-style);
   font-weight: 700;
   line-height: 1;
+  text-transform: uppercase;
 }
 .pgh {
   color: var(--color-contact);
@@ -140,7 +143,7 @@ body {
   background-color: var(--color-team);
 }
 
-.tittle-team {
+.tittle-section {
   font-style: var(--font-style);
   font-weight: 700;
   font-size: 36px;
@@ -157,9 +160,38 @@ body {
   font-size: 16px;
   line-height: 1.2;
 }
+.tittle-carla {
+  font-style: var(--font-style);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+}
+.tittle-mario {
+  font-style: var(--font-style);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+}
+.pgh-mark {
+  font-size: 16px;
+  line-height: 1.2;
+}
+.tittle-pablo {
+  font-style: var(--font-style);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+}
+.pgh-IU {
+  font-size: 16px;
+  line-height: 1.2;
+}
+.pgh-developer {
+  font-size: 16px;
+  line-height: 1.2;
+}
 .bottom-box {
   background-color: var(--color-container);
-  position: absolute;
 }
 
 .Webname {

@@ -24,7 +24,8 @@ body {
   list-style: none;
   text-decoration: none;
 }
-.link:hover {
+.link:hover,
+.link:focus {
   color: var(--color-link);
   cursor: pointer;
 }

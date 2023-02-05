@@ -109,6 +109,7 @@ body {
   color: var(--color-letter-black);
   background-color: #f5f4fa;
   font-size: 16px;
+  cursor: pointer;
 }
 .principal {
   background-color: var(--color-link);

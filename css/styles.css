@@ -43,6 +43,10 @@ p {
   color: var(--color-link);
   cursor: pointer;
 }
+.site-nav {
+  display: flex;
+  align-items: center;
+}
 .site-nav .current.active {
   text-decoration: none;
   font-style: var(--font-style);
